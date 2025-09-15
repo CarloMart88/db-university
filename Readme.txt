@@ -97,3 +97,7 @@ GROUP BY `office_address`
 
 
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+
+SELECT count(*) as `numero dei corsi `  
+FROM `degrees`
+group by `department_id`;
