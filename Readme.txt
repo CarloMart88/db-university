@@ -66,7 +66,15 @@ SELECT *
 
 
 7. Da quanti dipartimenti è composta l'università? (12)
+
+SELECT count(`name`) AS "NUMERO CORSI"
+ FROM `departments`;
+
+
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+
+
 
 QUERY ON GROUP BY 
 
