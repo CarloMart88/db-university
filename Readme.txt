@@ -73,7 +73,7 @@ SELECT count(`name`) AS "NUMERO CORSI"
 
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 
-SELECT * 
+SELECT COUNT(*) 
 FROM `teachers`
 WHERE `phone` IS NULL;
 
