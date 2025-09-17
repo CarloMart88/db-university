@@ -148,6 +148,7 @@ SELECT `students`.`name` , `students`.`surname` , `students`.`degree_id` , `degr
 FROM `students`
 JOIN `degrees` ON `degrees`.`id` = `students`.`degree_id`
 JOIN `departments` ON `departments`.`id` = `degrees`.`department_id`
+ORDER BY  `students`.`name` , `students`.`surname`
 
 ;
 
